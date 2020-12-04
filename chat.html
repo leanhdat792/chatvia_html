@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Home</title>
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/MaterialDesign-Webfont/5.8.55/css/materialdesignicons.min.css" integrity="sha512-x96qcyADhiw/CZY7QLOo7dB8i/REOEHZDhNfoDuJlyQ+yZzhdy91eAa4EkO7g3egt8obvLeJPoUKEKu5C5JYjA==" crossorigin="anonymous" />
+	<link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.1/css/bootstrap.min.css" integrity="sha384-VCmXjywReHh4PwowAiWNagnWcLhlEJLA5buUprzK8rxFgeH0kww/aWY76TfkUoSX" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css">
+	<link rel="stylesheet" href="https://unpkg.com/simplebar@latest/dist/simplebar.css"/>
+	<link rel="stylesheet" href="assets/css/style.css?t=1607076823137">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css">
+</head>
+<body>
+<!--▼ Content area ▼-->
+<main class="p-chat">
+    <section class="p-chat1 d-lg-flex">
+        <div class="c-gnavi flex-lg-column mr-lg-1">
+            <div class="c-gnavi__box">
+                <a href="" class="logo">
+                    <span class="logo-sm">
+                        <img src="assets/img/logo.de6401ef.svg" alt="logo">
+                    </span>
+                </a>
+            </div>
+            <div class="flex-lg-column my-auto">
+                <ul role="tablist" class="c-gnavi__nav justify-content-center nav nav-pills">
+                    <li id="profile" class="c-gnavi__item">
+                        <a id="pills-user-tab" class="nav-link">
+                            <i class="ri-user-2-line"></i>
+                        </a>
+                    </li>
+                    <li id="Chats" class="c-gnavi__item">
+                        <a id="pills-chat-tab" class="active nav-link">
+                            <i class="ri-message-3-line"></i>
+                        </a>
+                    </li>
+                    <li id="Groups" class="c-gnavi__item">
+                        <a id="pills-groups-tab" class="nav-link">
+                            <i class="ri-group-line"></i>
+                        </a>
+                    </li>
+                    <li id="Contacts" class="c-gnavi__item">
+                        <a id="pills-contacts-tab" class="nav-link">
+                            <i class="ri-contacts-line"></i>
+                        </a>
+                    </li>
+                    <li id="Settings" class="c-gnavi__item">
+                        <a id="pills-setting-tab" class="nav-link">
+                            <i class="ri-settings-2-line"></i>
+                        </a>
+                    </li>
+                    <li class="profile-user-dropdown d-inline-block d-lg-none dropdown nav-item">
+                        <a aria-haspopup="true" href="#" class="nav-link" aria-expanded="false">
+                            <img src="assets/img/avatar-1.67e2b9d7.jpg" alt="chatvia" class="profile-user rounded-circle">
+                        </a>
+                        <div tabindex="-1" role="menu" aria-hidden="true" class="dropdown-menu">
+                            <button type="button" tabindex="0" role="menuitem" class="dropdown-item">Profile <i class="ri-profile-line float-right text-muted"></i></button>
+                            <button type="button" tabindex="0" role="menuitem" class="dropdown-item">Setting <i class="ri-settings-3-line float-right text-muted"></i></button>
+                            <div tabindex="-1" class="dropdown-divider"></div>
+                            <a href="/logout" tabindex="0" role="menuitem" class="dropdown-item">Log out <i class="ri-logout-circle-r-line float-right text-muted"></i></a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="flex-lg-column d-none d-lg-block">
+                <ul class="c-gnavi__nav justify-content-center nav">
+                    <li class="c-gnavi__item btn-group dropup profile-user-dropdown dropright dropdown">
+                        <a aria-haspopup="true" href="#" class="nav-link" aria-expanded="false"><i class="ri-global-line"></i></a>
+                    </li>
+                    <li class="c-gnavi__item">
+                        <a id="light-dark" target="_blank" href="" class="nav-link"><i class="ri-sun-line theme-mode-icon"></i></a>
+                    </li>
+                    <li class="c-gnavi__item btn-group dropup profile-user-dropdown dropdown">
+                        <a aria-haspopup="true" href="#" class="nav-link" aria-expanded="false"><img src="assets/img/avatar-1.67e2b9d7.jpg" alt="" class="c-gnavi__user rounded-circle"></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="p-chat1__leftsidebar mr-lg-1">
+            <div class="tab-content">
+                <div id="pills-chat" class="tab-pane active">
+                    <div>
+                        <div class="px-4 pt-4">
+                            <h4 class="mb-4">Chats</h4>
+                            <div class="c-search__box c-search__box--chat">
+                                <div class="mb-3 bg-light rounded-lg input-group input-group-lg">
+                                    <div class="input-group-prepend">
+                                        <button type="button" class="text-muted pr-1 text-decoration-none btn btn-link"><i class="ri-search-line search-icon c-fs18"></i></button>
+                                    </div>
+                                    <input placeholder="Search messages or users" type="text" class="form-control bg-light" value="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="px-4 pb-4">
+                            <div class="owl-carousel owl-theme">
+                                <div class="item">
+                                    <a href="" class="c-user1" title="">
+                                        <div class="mx-auto d-block c-user1__img online">
+                                            <span class="c-user1__title rounded-circle">T</span>
+                                            <span class="c-user1__status"></span>
+                                        </div>
+                                        <h5 class="c-fs13 text-truncate mt-3 mb-1">Teresa</h5>
+                                    </a>
+                                </div>
+                                <div class="item">
+                                    <a href="" class="c-user1" title="">
+                                        <div class="mx-auto d-block c-user1__img online">
+                                            <img src="assets/img/avatar-2.02aea0c2.jpg" alt="user-img" class="img-fluid rounded-circle">
+                                            <span class="c-user1__status"></span>
+                                        </div>
+                                        <h5 class="c-fs13 text-truncate mt-3 mb-1">Patrick</h5>
+                                    </a>
+                                </div>
+                                <div class="item">
+                                    <a href="" class="c-user1" title="">
+                                        <div class="mx-auto d-block c-user1__img online">
+                                            <img src="assets/img/avatar-4.e0ab315a.jpg" alt="user-img" class="img-fluid rounded-circle">
+                                            <span class="c-user1__status"></span>
+                                        </div>
+                                        <h5 class="c-fs13 text-truncate mt-3 mb-1">Doris</h5>
+                                    </a>
+                                </div>
+                                <div class="item">
+                                    <a href="" class="c-user1" title="">
+                                        <div class="mx-auto d-block c-user1__img online">
+                                            <img src="assets/img/avatar-5.3e35c39b.jpg" alt="user-img" class="img-fluid rounded-circle">
+                                            <span class="c-user1__status"></span>
+                                        </div>
+                                        <h5 class="c-fs13 text-truncate mt-3 mb-1">Emily</h5>
+                                    </a>
+                                </div>
+                                <div class="item">
+                                    <a href="" class="c-user1" title="">
+                                        <div class="mx-auto d-block c-user1__img online">
+                                            <img src="assets/img/avatar-6.11d7dc68.jpg" alt="user-img" class="img-fluid rounded-circle">
+                                            <span class="c-user1__status"></span>
+                                        </div>
+                                        <h5 class="c-fs13 text-truncate mt-3 mb-1">Steve</h5>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="px-2">
+                            <h5 class="mb-3 px-3 c-fs16">Recent</h5>
+                            <div data-simplebar="init" class="p-chat1__message">
+                                <div class="box">1</div>
+                                <div class="box">2</div>
+                                <div class="box">3</div>
+                                <div class="box">4</div>
+                                <div class="box">5</div>
+                                <div class="box">6</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+<!--▲ Content area ▲-->
+	<!--▼ Footer ▼-->
+	<!-- <footer class="c-footer">
+		<div class="l-container">
+			©2019 ALLGROW LABO Inc.
+		</div>
+	</footer> -->
+	<!--▲ Footer ▲-->
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.js"></script>
+	<script src="https://unpkg.com/simplebar@latest/dist/simplebar.min.js"></script>
+	<script src="assets/js/main.js?t=1607076823137"></script>
+</body>
+</html>
