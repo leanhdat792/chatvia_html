@@ -13,7 +13,7 @@
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css">
 	<link rel="stylesheet" href="https://unpkg.com/simplebar@latest/dist/simplebar.css"/>
-	<link rel="stylesheet" href="assets/css/style.css?t=1607077995446">
+	<link rel="stylesheet" href="assets/css/style.css?t=1607078582805">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css">
 </head>
 <body>
@@ -93,7 +93,7 @@
         var elemName = $('#' + elem).val();
         if(elemName == ""){
             $('#' + elem).addClass('is-invalid');
-            errorMessage += '<div type="invalid" class="invalid-feedback d-block">Required</div>';
+            error += '<div type="invalid" class="invalid-feedback d-block">Required</div>';
             var html = $('#' + elem).next().text();
             if(html == ""){
                 $('#' + elem).parent().append(error);
@@ -169,6 +169,6 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.js"></script>
 	<script src="https://unpkg.com/simplebar@latest/dist/simplebar.min.js"></script>
-	<script src="assets/js/main.js?t=1607077995446"></script>
+	<script src="assets/js/main.js?t=1607078582805"></script>
 </body>
 </html>
